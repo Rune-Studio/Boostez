@@ -1,2 +1,4 @@
-pense bete:
-- pas oublier de email unique dans newsletter entity
+- composer install
+- docker-compose up
+- symfony console d:m:m
+- symfony console d:f:l

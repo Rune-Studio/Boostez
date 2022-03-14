@@ -1,4 +1,4 @@
 - composer install
 - docker-compose up
-- symfony console d:m:m
-- symfony console d:f:l
+- symfony console doctrine:migration:migrate
+- symfony console doctrine:fixtures:load
